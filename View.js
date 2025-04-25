@@ -43,7 +43,7 @@ export const View = (() => {
 
   const clearInput = () => {
     goalInputEL.value = "";
-    categorySelectEL.value = "cardio"
+    categorySelectEL.value = "Cardio"
     repetitionInputEL.value = "";
   }
 
