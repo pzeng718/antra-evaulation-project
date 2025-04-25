@@ -1,0 +1,89 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.goal-input {
+  display: block;
+}
+
+.goal-achieved {
+  text-decoration: line-through;
+}
+
+#category {
+  display: block;
+}
+
+#add-goal-form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+#add-goal-form section {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+label{
+  font-size: 0.95rem;
+  color: rgb(87, 87, 87);
+}
+
+.goal-input, #category {
+  margin-top: 5px;
+  font-size: 1.05rem;
+  padding: 7px 7px;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+#goal-add-btn {
+  color: white;
+  background: rgb(22, 165, 22);
+  width: 100%;
+  border: none;
+  font-size: 1.05rem;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.goal-list {
+  max-width: 420px;
+}
+
+.goal-li {
+  background-color: rgb(248, 246, 246);
+  padding: 10px;
+  border: 1px solid rgb(210, 209, 209);
+  margin-bottom: 15px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.goal-li span{
+  text-align: center;
+  display: inline-block;
+  max-width: 350px;
+  flex: 1;
+}
+.goal-li button {
+  max-height: 50px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  background-color: #2879c4;
+}
+
+ul li {
+  list-style: none;
+}
